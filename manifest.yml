@@ -1,8 +1,8 @@
 applications:
-- name: Kitura-Starter
-  memory: 256M
+- path: .
+  memory: 128M
   instances: 1
-  random-route: true
+  domain: mybluemix.net
+  name: swiftRuntime1
+  host: swiftRuntime1
   disk_quota: 1024M
-  command: Kitura-Starter
-  buildpack: swift_buildpack
